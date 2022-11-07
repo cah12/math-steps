@@ -1,3 +1,4 @@
-const mathsteps = require("./js/math-steps");
-
-exports.mathsteps = mathsteps;
+define(["./js/math-steps"], function (mathsteps) {
+  "use strict";
+  return mathsteps;
+});

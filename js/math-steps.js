@@ -1,3 +1,5 @@
-const mathsteps = require("./mathsteps");
-
-exports.mathsteps = mathsteps;
+define(["require"], function (require) {
+  "use strict";
+  const mathsteps = require("./mathsteps");
+  return mathsteps;
+});
