@@ -1,13 +1,21 @@
 {
   "name": "math-steps",
   "version": "1.0.0",
-  "description": "",
+  "description": "A wrapper for mathsteps",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cah12/math-steps.git"
+  },
   "author": "CAH",
-  "license": "MIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cah12/math-steps/issues"
+  },
+  "homepage": "https://github.com/cah12/math-steps#readme",
   "dependencies": {
     "mathsteps": "^0.2.0"
   }
