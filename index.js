@@ -1,1 +1,2 @@
-return require("mathsteps");
+const mathsteps = require("mathsteps");
+return mathsteps;
