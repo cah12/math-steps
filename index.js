@@ -1,2 +1,3 @@
-const mathsteps = require("mathsteps");
-return mathsteps;
+require("mathsteps", function (mathsteps) {
+  return mathsteps;
+});
