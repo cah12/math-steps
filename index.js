@@ -1,4 +1,1 @@
-define(["./js/math-steps"], function (mathsteps) {
-  "use strict";
-  return mathsteps;
-});
+return require("mathsteps");
