@@ -1,3 +1,3 @@
-import mathsteps from "./js/math-steps";
+const mathsteps = require("./js/math-steps");
 
-module.exports.mathsteps = mathsteps;
+exports.mathsteps = mathsteps;
