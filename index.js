@@ -1,3 +1,3 @@
-require("mathsteps", function (mathsteps) {
-  return mathsteps;
-});
+import mathsteps from "./mathsteps";
+
+return mathsteps;
