@@ -1,3 +1,3 @@
 import mathsteps from "./mathsteps";
 
-return mathsteps;
+module.exports = mathsteps;
